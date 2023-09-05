@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(66, 66, 66);
+}
+
+.food {
+  margin: 20px auto;
+  width: 200px;
+  background: white;
+  color: black;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.navber {
+  background: white;
+  padding: 20px;
+}
+
+.navber a {
+  margin-right: 10px;
+  text-decoration: none;
+}
