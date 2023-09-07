@@ -18,10 +18,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <div className="navber">
-          <Link href="/">홈</Link>
-          <Link href="/list">리스트</Link>
-        </div>
         {/* page.js */}
         {children}
       </body>
