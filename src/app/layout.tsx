@@ -18,6 +18,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
+        <div className="navbar">
+          <Link href="/" className="logo">
+            Appleforum
+          </Link>
+          <Link href="/list">List</Link>
+        </div>
         {/* page.js */}
         {children}
       </body>
